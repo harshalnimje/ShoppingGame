@@ -3,10 +3,10 @@ using ShoppingGameApp;
 
 namespace ShoppingGame.UnitTests
 {
-    public class UnitTest1
+    public class CheckoutUnitTest
     {
         [Fact]
-        public void Test1()
+        public void ThreeForTwoDealTest()
         {
             string[] arrSku = new string[] { "atv", "atv", "atv", "vga" };
 
@@ -23,7 +23,7 @@ namespace ShoppingGame.UnitTests
         }
 
         [Fact]
-        public void Test2()
+        public void BulkDiscountTest()
         {
             string[] arrSku = new string[] { "atv", "ipd", "ipd", "atv", "ipd", "ipd", "ipd" };
 
@@ -40,7 +40,7 @@ namespace ShoppingGame.UnitTests
         }
 
         [Fact]
-        public void Test3()
+        public void FreeProductTest()
         {
             string[] arrSku = new string[] { "mbp", "vga", "ipd" };
 
